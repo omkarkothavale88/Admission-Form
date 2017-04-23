@@ -1,0 +1,45 @@
+h3{
+        
+    
+    margin-top: 50px;
+    text-align: center;  
+    color :brown;
+    font-family: cursive;
+    
+    
+}
+
+h1{
+    
+    color: darkred;
+    font-family: cursive;
+  
+    
+}
+
+body{
+    
+    background-color: aliceblue;
+        
+}
+
+p{
+    
+    
+    text-align: center;
+    color: brown;
+    font-size: 20px;
+    
+    
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+
+<Script type="text/javascript" src="form.js" ></Script>
+<Script src="jquery-3.2.0.js"></Script>
+ <Script>
+    
+      $(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+     
+</Script>   
+</head>
+
+<h1 style="text-align:center"> Personal Information Form </h1>
+
+<body>
+    
+<link rel="stylesheet" type="text/css" href="form.css" >
+
+    <form action='./result.jsp'>
+<h3>
+    
+        <p/> Name: <input type="text" Id="Nm" name="name1" />
+        <p/> School: <input type="text" Id="Sc" value=""  name="scl"/>
+        <p/> State:  <input type="text" Id="St" value="" name="state"/>
+        <p/> Gender: <input type="radio" Id='M'/>Male 
+                    <input type="radio" Id='F'/>Female 
+        <p/>Marrital Status<input type="checkbox" id="Mrd"/>Married <input type="checkbox" id="single"/>Single
+        </p><input type="submit" value="submit"  Id="sb" onclick="validatename();" />
+    
+</h3>   
+
+    </form>
+    <<h4 id="foot"></h4>
+
+
+
+</html>
+</body>
+
+
+    
+</body>
+</html>
