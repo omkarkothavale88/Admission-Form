@@ -1,2 +1,2 @@
-# PGA-Webapp
-Easy app for information of academy 
+# Admission Form
+Basic client side validated form with good design
